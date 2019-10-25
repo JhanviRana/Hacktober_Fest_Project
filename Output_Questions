@@ -12,7 +12,9 @@ int main()
 } 
 
 
-OUTPUT : ????
+OUTPUT : 
+1
+2 2 2 
 
 
 #include<iostream> 
