@@ -5,7 +5,7 @@ using namespace std;
 class Test { 
     int value; 
 public: 
-    Test(int v); 
+    Test(int v=0); 
 }; 
   
 Test::Test(int v) { 
@@ -18,4 +18,6 @@ int main() {
 } 
 
 Will Give Compiler Error..Explain Why?
+The class Test has one user defined constructor “Test(int v)” that expects one argument. 
+It doesn’t have a constructor without any argument as the compiler doesn’t create the default constructor if user defines a constructor
 
