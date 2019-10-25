@@ -27,8 +27,9 @@ int main()
 	return 0; 
 } 
 
-
-OUTPUT : ???
+OUTPUT :
+1
+2 2
 
 #include<iostream> 
 using namespace std; 
